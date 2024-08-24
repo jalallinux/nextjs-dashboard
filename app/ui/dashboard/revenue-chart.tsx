@@ -22,7 +22,7 @@ export default async function RevenueChart({revenue}: {revenue: Revenue[];}) {
   return (
     <div className="w-full md:col-span-4">
       <h2 className={`${vazirmatn.className} mb-4 text-xl md:text-2xl`}>
-        Recent Revenue
+        آمار درآمد ها
       </h2>
       {/* NOTE: Uncomment this code in Chapter 7 */}
 
@@ -53,7 +53,7 @@ export default async function RevenueChart({revenue}: {revenue: Revenue[];}) {
         </div>
         <div className="flex items-center pb-2 pt-6">
           <CalendarIcon className="h-5 w-5 text-gray-500" />
-          <h3 className="ml-2 text-sm text-gray-500 ">Last 12 months</h3>
+          <h3 className="mr-2 text-sm text-gray-500 ">12 ماه گذشته</h3>
         </div>
       </div>
     </div>
