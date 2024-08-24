@@ -57,23 +57,23 @@ export default async function InvoicesTable({
           <table className="hidden min-w-full text-gray-900 md:table">
             <thead className="rounded-lg text-left text-sm font-normal">
               <tr>
-                <th scope="col" className="px-4 py-5 font-medium sm:pl-6">
-                  Customer
+                <th scope="col" className="px-4 py-5 font-medium rtl:text-right sm:pr-6">
+                  نام و نام خانوادگی
                 </th>
-                <th scope="col" className="px-3 py-5 font-medium">
-                  Email
+                <th scope="col" className="px-3 py-5 font-medium rtl:text-right">
+                  ایمیل
                 </th>
-                <th scope="col" className="px-3 py-5 font-medium">
-                  Amount
+                <th scope="col" className="px-3 py-5 font-medium rtl:text-right">
+                  مبلغ
                 </th>
-                <th scope="col" className="px-3 py-5 font-medium">
-                  Date
+                <th scope="col" className="px-3 py-5 font-medium rtl:text-right">
+                  تاریخ
                 </th>
-                <th scope="col" className="px-3 py-5 font-medium">
-                  Status
+                <th scope="col" className="px-3 py-5 font-medium rtl:text-right">
+                  وضعیت
                 </th>
                 <th scope="col" className="relative py-3 pl-6 pr-3">
-                  <span className="sr-only">Edit</span>
+                  <span className="sr-only">ویرایش</span>
                 </th>
               </tr>
             </thead>
