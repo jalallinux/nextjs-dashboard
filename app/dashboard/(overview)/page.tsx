@@ -1,16 +1,16 @@
 import RevenueChart from '@/app/ui/dashboard/revenue-chart';
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
-import { vazirmatn } from '@/app/ui/fonts';
+import { lalezar } from '@/app/ui/fonts';
 import { Suspense } from 'react';
 import { LatestInvoicesSkeleton, RevenueChartSkeleton, CardsSkeleton } from '@/app/ui/skeletons';
 import CardWrapper from '@/app/ui/dashboard/cards';
 
 export default async function Page() {
     return (
-        <main>
-            <h1 className={`${vazirmatn.className} mb-4 text-xl md:text-2xl`}>
-                داشبورد
-            </h1>
+        <div className="w-full">
+            <div className="flex w-full items-center justify-between pb-4">
+                <h1 className={`${lalezar.className} text-2xl`}>داشبورد</h1>
+            </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
                 <Suspense fallback={<CardsSkeleton />}>
                     <CardWrapper />
@@ -24,6 +24,6 @@ export default async function Page() {
                     <RevenueChart />
                 </Suspense>
             </div>
-        </main>
+        </div>
     );
 }
