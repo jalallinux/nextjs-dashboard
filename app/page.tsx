@@ -24,7 +24,7 @@ export default function Page() {
             0 1 2 3 4 5 6 7 8 9
           </p>
           <Link
-            href="/dashboard"
+            href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
           >
             <span className={`${lalezar.className} text-xl md:text-3xl md:leading-normal`}>ورود</span> <ArrowLeftIcon className="w-5 md:w-6" />
